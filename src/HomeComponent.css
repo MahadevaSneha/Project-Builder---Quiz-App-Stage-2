@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(117, 117, 248);
+}
+btn-clr{
+    border: 5px solid green;
+    background-color: green;
+    border-radius: 50px;
+    width: 150px;
+}

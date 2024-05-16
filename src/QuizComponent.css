@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(117, 117, 248);
+}
+.qst-pad{
+    padding: 100px;
+    background-color: white;
+    width: 700px;
+    margin:0 auto;
+    text-emphasis: center;
+}
+.qst-pad h1{
+    margin-bottom: 20px;
+}
+.qst-pad ul{
+    list-style-type: none;
+    
+    margin-bottom: 20px;
+}
+.qst-pad ul li{
+     display: inline-block;
+     margin: 20px;
+     padding: 15px;
+    background-color: skyblue;
+    border:px solid skyblue;
+    background-color: skyblue;
+    border-radius: 50px;
+    width: 250px;
+    
+}
+.qst-pad button{
+    margin: 10px;
+}
+.qst-pad button {
+    display: inline-block;
+}
+.btn-1{
+    background-color:rgb(80, 115, 161);
+}
+.btn-2{
+    background-color:rgb(51, 219, 51);
+}
+.btn-3{
+    background-color: red;
+}
