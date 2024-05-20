@@ -1,31 +1,71 @@
 body{
     background-color: rgb(117, 117, 248);
+    position: relative;
+}
+span{
+    float: left;
 }
 .qst-pad{
-    padding: 100px;
+   position: relative;
+    padding: 50px;
     background-color: white;
     width: 700px;
-    margin:0 auto;
-    text-emphasis: center;
+    margin:20px auto;
+    text-align: center;
+    border-radius: 10px;
 }
-.qst-pad h1{
+.quiz-question {
+    font-size: 1.5em;
     margin-bottom: 20px;
 }
+
 .qst-pad ul{
-    list-style-type: none;
-    
+    list-style-type: none; 
     margin-bottom: 20px;
+    padding: 0;
 }
 .qst-pad ul li{
      display: inline-block;
      margin: 20px;
      padding: 15px;
     background-color: skyblue;
-    border:px solid skyblue;
+    border:2px solid skyblue;
     background-color: skyblue;
     border-radius: 50px;
     width: 250px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
     
+}
+.qst-pad ul li:hover {
+    background-color: #87ceeb;
+}
+.qst-pad ul li.selected {
+    background-color: #4CAF50;
+    color: white;
+}
+.feedback {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 5px;
+}
+.correct {
+    background-color: #4CAF50;
+    color: white;
+}
+.incorrect {
+    background-color: #dd4e44;
+    color: white;
+}
+.qst-pad button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
 }
 .qst-pad button{
     margin: 10px;
