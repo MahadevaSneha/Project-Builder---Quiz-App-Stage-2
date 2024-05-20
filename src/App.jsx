@@ -1,13 +1,9 @@
 import './App.css';
-import HomeComponent from './components/HomeComponent';
-import QuizComponent from './components/QuizComponent';
-import ResultComponent from './components/ResultComponent';
+import MainComponent from './components/MainComponent';
 function App(){
   return(
     <div className="App">
-      <HomeComponent/>
-      <QuizComponent/>
-      <ResultComponent/>
+       <MainComponent/>
 
       
      
